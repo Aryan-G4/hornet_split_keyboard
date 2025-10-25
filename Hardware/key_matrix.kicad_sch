@@ -46899,6 +46899,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 218.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1dac5855-1425-4a8a-a2f8-821f72da1ba5")
 		)
@@ -50339,6 +50348,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 203.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 203.2 86.36 0)
 			(effects
 				(font
