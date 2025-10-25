@@ -1,0 +1,233 @@
+(footprint "SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD 1x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin")
+	(tags "SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin")
+	(property "Reference" "SW98"
+		(at 2.9 -3.1 0)
+		(layer "F.SilkS")
+		(uuid "e6c5d922-513f-464c-9858-bc514f429e6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Push"
+		(at 3.365 3.11 0)
+		(layer "F.Fab")
+		(uuid "cdd7f5f0-9c5a-4c22-844c-6905ff8db0bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 3.365 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d992fb6d-84ea-43f3-b1cc-b895419a2af6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Push button switch, generic, two pins"
+		(at 3.365 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40694f2e-46a8-4410-a2fb-3f92b2b5e1f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.285 -2.35)
+		(end -0.285 -0.967)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f16987fa-a3eb-46d8-8f06-5bbdb2eda94a")
+	)
+	(fp_line
+		(start -0.285 -2.35)
+		(end 1.098 -2.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52af9168-63f6-446c-8210-ed940593ebf8")
+	)
+	(fp_line
+		(start -0.045 -2.11)
+		(end -0.045 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "220d1537-7a10-4e26-9347-d4a3d90159f5")
+	)
+	(fp_line
+		(start -0.045 -2.11)
+		(end 5.2 -2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e36b0f0-ff10-4b52-a882-b837a8c840f2")
+	)
+	(fp_line
+		(start -0.045 0.8)
+		(end -0.045 2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "030906a3-0cb9-4f8b-ae60-f8d4c2a5b3b0")
+	)
+	(fp_line
+		(start -0.045 2.11)
+		(end 5.2 2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "874fa4e1-49d5-4a57-aaa6-be1ed6c378f6")
+	)
+	(fp_line
+		(start 5.2 -2.11)
+		(end 5.2 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b10723ca-2aaf-47ec-aea3-ab9df30f385c")
+	)
+	(fp_line
+		(start 5.2 0.8)
+		(end 5.2 2.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6fc020cc-506b-4e7b-a2f6-3402a4d0b37f")
+	)
+	(fp_rect
+		(start -0.735 -2.36)
+		(end 5.465 2.36)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "011c33a5-f102-45e4-a7df-92f7e1d989e1")
+	)
+	(fp_line
+		(start 0.015 -1.05)
+		(end 1.015 -2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69650703-3f90-423e-8f8a-70b00d5044d9")
+	)
+	(fp_line
+		(start 0.015 2.05)
+		(end 0.015 -1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12638825-dc78-4a94-ba6c-2c27f7741f06")
+	)
+	(fp_line
+		(start 1.015 -2.05)
+		(end 5.2 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "230a23af-dc54-4327-865d-023c2cfaac6a")
+	)
+	(fp_line
+		(start 5.2 -2.05)
+		(end 5.2 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "39070b06-cc59-4515-b0e2-5ca216181800")
+	)
+	(fp_line
+		(start 5.2 2.05)
+		(end 0.015 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6395262a-315c-4c37-a7aa-8db1edba5e0e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.365 4.6 180)
+		(layer "F.Fab")
+		(uuid "4e8c2c18-8306-427c-91dc-44967c0ecba2")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1.05 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.223214)
+		(uuid "18840281-b166-44f9-8f3d-e560376f1a37")
+	)
+	(pad "2" smd roundrect
+		(at 4.4 0)
+		(size 1.05 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.223214)
+		(uuid "bf9fc1c3-8934-40f2-a8d1-9f63a87667af")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin.step"
+		(offset
+			(xyz 3.365 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

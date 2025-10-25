@@ -16447,7 +16447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010"
+		(property "Footprint" "ScottoKeebs_Miscellaneous:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
 			(at 29.21 200.66 0)
 			(effects
 				(font
