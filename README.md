@@ -28,6 +28,7 @@ This project represents a complete end-to-end embedded hardware design — from 
 <img width="2227" height="1220" alt="image" src="https://github.com/user-attachments/assets/42f013ce-a481-48cb-8560-fc459172c081" />
 3D model (ish)
 <img width="1602" height="971" alt="image" src="https://github.com/user-attachments/assets/d7f261e9-df3e-43f1-b0ab-6ca462b41832" />
+<img width="3080" height="1879" alt="hornet_kb_jlcpcb_render" src="https://github.com/user-attachments/assets/a09c25f8-36d7-4864-9fca-d8712fa52eda" />
 
 Individual Layers:
 L1: FCu
@@ -71,52 +72,35 @@ The system integrates three major electrical domains:
 - **Qi receiver integration** including rectification, voltage regulation, and charge negotiation.
 - **Seamless transition** between wireless power and USB without brownout.
 
----
-
-## Design Challenges and Solutions
-
-| Challenge | Solution |
-|------------|-----------|
-| RF isolation near digital lines | Created a separate RF ground island with via stitching for return path control. |
-| Simultaneous charge and operate stability | Implemented a load-sharing circuit with MOSFET-controlled current path separation. |
-| USB-C CC detection and DFU mode switching | Used CC pull-down resistors with firmware-based detection for mode selection. |
-| Battery voltage droop during transmit bursts | Added low-ESR ceramic capacitors and ferrite bead isolation near the antenna supply rail. |
-| Routing dense key matrix | Used hierarchical sheets and labeled nets to efficiently organize over 60 switches across the split halves. |
-
----
-
 ## Tools and Workflow
 
 - **KiCad 8.0** — schematic capture and PCB design  
 - **JLCPCB / LCSC** — fabrication and component sourcing  
 - **SolidWorks** — mechanical fit and case alignment  
-- **STM32CubeIDE** — firmware prototyping (I²C, SPI, GPIO, BLE config)  
-- **DFU-util** — firmware flashing over USB-C
+- **ZMK** - Open source repo for wireless split keyboards
+- **DFU-util** — firmware flashing over USB-C and SWD through my STLinkV3
 
 ---
 
-## Firmware Architecture (Planned)
-
-- **FreeRTOS** scheduler for concurrent matrix scanning and BLE communication.
-- **Low-power sleep mode** using MCU deep-sleep and battery voltage triggers.
-- **DFU bootloader** supporting over-the-air firmware updates (future).
-
----
-
-## Key Learning Outcomes
-
-- Advanced PCB design for mixed-signal and RF systems.
-- Real-world power management and LiPo protection circuit design.
-- High-speed differential pair routing and controlled impedance design.
-- Integration of wireless charging standards into a compact PCB layout.
-- Designing for manufacturability and testability at the hobbyist scale.
+## Firmware Architecture 
+- Utilize USBC's DFU to flash all firmware and STLinkV3 to flash in case of USBC fail
+- Implement ZMK- wireless open source keyboard firmware kit for wireless split keyboards
+- Implement QMK alternatively, for wired keyboards
+- Eventually write my own firmware, optimizing speed and runtime.
 
 ---
 
-## Gallery
-
-*(Add PCB renders, block diagrams, or assembly photos here)*
 
 ---
 
-## Repository Structure
+## Gallery and work in progress photos :D
+<img width="1898" height="836" alt="image" src="https://github.com/user-attachments/assets/b6adf721-80af-47b9-a88d-ddd3c4f08613" />
+<img width="1453" height="820" alt="image" src="https://github.com/user-attachments/assets/8936316d-7e5c-4cdb-b8fd-d62d901ebdca" />
+<img width="722" height="422" alt="image" src="https://github.com/user-attachments/assets/fedaf777-b995-465c-92c3-e85e154e1612" />
+<img width="902" height="400" alt="image" src="https://github.com/user-attachments/assets/d41cf58a-8f0d-476e-90eb-69c75eb924d8" />
+<img width="1005" height="985" alt="image" src="https://github.com/user-attachments/assets/c3cf6b1a-0491-41b7-96e8-a4469d875339" />
+<img width="1548" height="788" alt="image" src="https://github.com/user-attachments/assets/a2d371b7-c8a7-45ef-9df2-85809cdc2aeb" />
+<img width="1623" height="1045" alt="image" src="https://github.com/user-attachments/assets/da160d5a-b168-499f-b6a2-8f0226f8ceee" />
+<img width="1228" height="908" alt="image" src="https://github.com/user-attachments/assets/cb9986ea-8576-4fe8-b157-48c36196a551" />
+<img width="1524" height="466" alt="image" src="https://github.com/user-attachments/assets/d52be3e8-f153-4341-983a-1a8df9df86df" />
+
