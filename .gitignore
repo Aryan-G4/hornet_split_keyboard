@@ -72,3 +72,8 @@ fp-info-cache
 *.log
 *.raw
 .svg2shenzhen-cache
+*.lck
+Hardware/hornet_kb-backups/
+Hardware/jlcpcb/
+Hardware/\#auto_saved_files\#
+/Hardware/hornet_kb-backups

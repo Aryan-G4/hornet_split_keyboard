@@ -258,6 +258,24 @@
 				)
 			)
 			(pin power_in line
+				(at 1.27 -34.29 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 5.08 -34.29 90)
 				(length 2.54)
 				(name "VSS"
@@ -376,7 +394,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IFA"
-			(at 0 1.27 0)
+			(at -11.176 -3.302 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -421,7 +439,7 @@
 		(symbol "IFA_1_1"
 			(polyline
 				(pts
-					(xy -7.62 0) (xy -5.08 0) (xy -5.08 -5.08) (xy -5.08 0) (xy -2.54 0) (xy -2.54 -2.54) (xy 0 -2.54)
+					(xy -7.62 0) (xy -3.81 0) (xy -3.81 -5.08) (xy -3.81 0) (xy -2.54 0) (xy -2.54 -2.54) (xy 0 -2.54)
 					(xy 0 0) (xy 2.54 0) (xy 2.54 -2.54) (xy 5.08 -2.54) (xy 5.08 0) (xy 7.62 0) (xy 7.62 -2.54) (xy 7.62 -3.175)
 				)
 				(stroke
@@ -463,7 +481,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -5.08 -6.35 90)
+				(at -3.81 -6.35 90)
 				(length 2.54)
 				(name "ANT"
 					(effects

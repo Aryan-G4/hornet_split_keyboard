@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|250942499|80952501|3ac57f65-6b2d-43ed-a9b8-697a28102196|bc2a3d55-8b8d-45de-8ff7-c82572144a02",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -621,7 +616,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Sim.Pins"
