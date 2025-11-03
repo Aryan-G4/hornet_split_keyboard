@@ -1,6 +1,6 @@
 # Hornet Keyboard — Split Wireless Communication and Charging Mechanical Keyboard PCB
 
-The Hornet Keyboard is a fully custom, split mechanical keyboard featuring integrated **Bluetooth**, **Qi wireless charging**, and **USB-C programmability & Connectivity**.  
+The Hornet Keyboard is the *first* fully custom, split, mechanical keyboard featuring integrated **Bluetooth**, **Qi wireless charging** on either split, and optional **USB-C programmability/Connectivity**.  
 This project represents a complete end-to-end embedded hardware design — from schematic capture to multi-layer PCB layout — optimized for both performance and manufacturability.
 
 ---
