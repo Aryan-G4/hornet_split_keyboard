@@ -2,6 +2,7 @@
 
 The Hornet Keyboard is the *first* fully custom, split, mechanical keyboard featuring integrated **Bluetooth**, **Qi wireless charging** on either split, and optional **USB-C programmability/Connectivity**.  
 This project represents a complete end-to-end embedded hardware design — from schematic capture to multi-layer PCB layout — optimized for both performance and manufacturability.
+<img width="1097" height="677" alt="image" src="https://github.com/user-attachments/assets/9a4c4009-aa2c-443a-aa63-28ddc6004c8d" />
 
 ---
 
